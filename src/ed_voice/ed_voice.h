@@ -10,6 +10,7 @@
 #endif  // !EXTERNC
 
 EXTERNC int __cdecl StartUp();
+EXTERNC void __cdecl ReloadedStart();
 
 #undef EXTERNC
 

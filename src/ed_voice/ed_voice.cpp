@@ -25,3 +25,7 @@ int __cdecl StartUp() {
     LOG("Start Up Succeeded.");
     return succeeded;
 }
+
+void __cdecl ReloadedStart() {
+    StartUp();
+}

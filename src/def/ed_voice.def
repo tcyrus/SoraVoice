@@ -1,3 +1,4 @@
 LIBRARY "ed_voice.dll"
 EXPORTS
 StartUp @1
+ReloadedStart @1
